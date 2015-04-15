@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>B&K HomieBank</title>
+  </head>
+  <body>
+      <div class="container">
+          <h1>B&K Bank</h1>
+          <hr/>
+          <div class="row">
+              <div class="col-md-6">
+                  <form id="create">
+                    <div class="form-group">
+                      <label for="name">Name of New Account</label>
+                      <input id="name" type="text" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="initial">Initial Deposit</label>
+                      <input id="initial" type="number" required>
+                    </div>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                  </form>
+              </div>
+              <div class="col-md-6">
+                <form id="manage">
+                  <div class="form-group">
+                    <label for="deposit">Deposit</label>
+                    <input id="desosit" type="number" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="withdraw">Withdraw</label>
+                    <input id="withdraw" type="number" required>
+                  </div>
+                  <button type="submit" class="btn btn-info">Submit</button>
+                </form>
+            </div>
+          </div>
+          <hr/>
+          <div class="account">
+            <div class="row">
+              <h3>Your Account Balance is:</h2>
+              <h1 class="balance"></h1>
+            </div>
+          </div>
+      </div>
+  </body>
+</html>
