@@ -9,19 +9,32 @@ var BankAccount = {
 };
 
 $(document).ready(function() {
+
+
+  var newAccount = Object.create(BankAccount);
+
   $("form#create").submit(function(event) {
     event.preventDefault();
 
     var inputtedName = $("input#name").val();
-
-    var newAccount = Object.create(BankAccount);
-    newAccount.name = inputtedName;
-
     var inputtedBalance = parseInt($("input#initial").val());
 
+    newAccount.name = inputtedName;
     newAccount.deposit(inputtedBalance);
 
+
     $(".balance").text(newAccount.balance);
-    alert(newAccount.balance);
+  });
+
+  $("form#manage").submit(function(event) {
+    event.preventDefault();
+
+
+  var newBalance = parseInt($("input#deposit").val());
+
+
+  newAccount.deposit(newBalance);
+
+  $(".balance").text(newAccount.balance);
   });
 });
