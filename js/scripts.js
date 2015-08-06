@@ -62,13 +62,3 @@ $(document).ready(function() {
     $('.balance').text(newAccount.balance);
   });
 });
-
-/*
-(The hook[hooking the players into the game])The Mysterious: a mysterious death brings many to a small town in the middle of nowhere. Curiousity might get the better of them.
-(The golem[the difficulty, the opposition])The Funerial: the start where they all meet, join together, ask questions, put some pieces together, make sense of what is going on
-(The climate)The Happening/Inncedent: where they begin to realize this is bigger then what they thought.
-(The twist/conclusion)The Confrontation: the only action that is left. They must move on this or there needs will not be met, values will be at stake, obligations left unfulfilled
-
-
-
-*/
