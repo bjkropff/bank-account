@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>B&K Bank</title>
+  </head>
+  <body>
+      <div class="container">
+          <h1>B&K Bank</h1>
+          <hr/>
+          <div class="row">
+            <div class="col-md-12">
+              <form id="create">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <br>
+                  <input id="name" type="text" required>
+                </div>
+                <div class="form-group">
+                  <label for="initial">Initial Deposit</label>
+                  <br>
+                  <input id="initial" type="number" placeholder="number" required>
+                </div>
+                <div class="form-group">
+                  <label for="name">Username</label>
+                  <br>
+                  <input id="name" type="text" required>
+                </div>
+                <div class="form-group">
+                  <label for="initial">Password</label>
+                  <br>
+                  <input id="initial" type="text" required>
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+
+              </form>
+            </div>
+            <div class="col-md-12 login">
+              <br>
+              <p>
+                <a href="#">
+                Or login here
+                </a>
+              </p>
+            </div>
+            <div class="col-md-12 signin">
+              <form id="signin">
+                <h2>Sign In</h2>
+                <div class="form-group">
+                  <label for="name">Username</label>
+                  <br>
+                  <input id="name" type="text" required>
+                </div>
+                <div class="form-group">
+                  <label for="initial">Password</label>
+                  <br>
+                  <input id="initial" type="text" required>
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+            </div>
+            <div class="col-md-6" class="managed">
+              <form id="manage">
+                <div class="form-group">
+                  <label for="deposit">Deposit</label>
+                  <br>
+                  <input id="deposit" type="number" required>
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+              <form id="withdraw">
+                <div class="form-group">
+                  <label for="withdraw">Withdraw</label>
+                  <br>
+                  <input id="withdraw" type="number" required>
+                </div>
+                <button type="submit" class="btn btn-info">Submit</button>
+              </form>
+            </div>
+            <div class="account col-md-6">
+              <div class="row">
+                <h3>Your Account Balance is:</h2>
+                <h1 class="balance"></h1>
+              </div>
+            </div>
+          </div>
+      </div>
+  </body>
+</html>
