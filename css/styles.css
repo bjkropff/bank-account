@@ -5,10 +5,21 @@
   color: white;
   margin:0;
 }
-
+.about-us{
+  width: 100%;
+  background-color: #6DC968;
+  color: white;
+  margin:0;
+  padding: 100px 70px;
+}
 
 .title{
   margin-left: 50px;
+  color: white;
+}
+.title h1 a{
+  margin-left: 50px;
+  color: white;
 }
 
 .login{
@@ -19,4 +30,5 @@
 
 .container{
   text-align: center;
+  margin-bottom: 30px;
 }
