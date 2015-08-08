@@ -1,6 +1,22 @@
-body{
-  text-align: center;
+.header{
+  padding: 20px 50px;
+  width: 100%;
+  background-color: #6DC968;
+  color: white;
+  margin:0;
 }
+
+
+.title{
+  margin-left: 50px;
+}
+
+.login{
+  margin-top: 30px;
+  float: right;
+  text-align: right;
+}
+
 .container{
-  width: 50%;
+  text-align: center;
 }

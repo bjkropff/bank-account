@@ -8,85 +8,96 @@
     <title>B&K Bank</title>
   </head>
   <body>
-      <div class="container">
-          <h1>B&K Bank</h1>
-          <hr/>
-          <div class="row">
-            <div class="col-md-12">
-              <form id="create">
-                <div class="form-group">
-                  <label for="name">Your Name</label>
-                  <br>
-                  <input id="name" type="text" required>
-                </div>
-                <div class="form-group">
-                  <label for="initial">Initial Deposit</label>
-                  <br>
-                  <input id="initial" type="number" placeholder="number" required>
-                </div>
-                <div class="form-group">
-                  <label for="name">Username</label>
-                  <br>
-                  <input id="name" type="text" required>
-                </div>
-                <div class="form-group">
-                  <label for="initial">Password</label>
-                  <br>
-                  <input id="initial" type="text" required>
-                </div>
-                <button type="submit" class="btn btn-info">Submit</button>
-
-              </form>
-            </div>
-            <div class="col-md-12 login">
-              <br>
-              <p>
-                <a href="#">
-                Or login here
-                </a>
-              </p>
-            </div>
-            <div class="col-md-12 signin">
-              <form id="signin">
-                <h2>Sign In</h2>
-                <div class="form-group">
-                  <label for="name">Username</label>
-                  <br>
-                  <input id="name" type="text" required>
-                </div>
-                <div class="form-group">
-                  <label for="initial">Password</label>
-                  <br>
-                  <input id="initial" type="text" required>
-                </div>
-                <button type="submit" class="btn btn-info">Submit</button>
-              </form>
-            </div>
-            <div class="col-md-6" class="managed">
-              <form id="manage">
-                <div class="form-group">
-                  <label for="deposit">Deposit</label>
-                  <br>
-                  <input id="deposit" type="number" required>
-                </div>
-                <button type="submit" class="btn btn-info">Submit</button>
-              </form>
-              <form id="withdraw">
-                <div class="form-group">
-                  <label for="withdraw">Withdraw</label>
-                  <br>
-                  <input id="withdraw" type="number" required>
-                </div>
-                <button type="submit" class="btn btn-info">Submit</button>
-              </form>
-            </div>
-            <div class="account col-md-6">
-              <div class="row">
-                <h3>Your Account Balance is:</h2>
-                <h1 class="balance"></h1>
-              </div>
-            </div>
-          </div>
+    <div class="row header">
+      <div class="col-sm-5 title">
+        <h1>
+          <a href="index.html">
+            B&K Bank
+          </a>
+        </h1>
       </div>
+      <div class="">
+      </div>
+      <div class="col-sm-5 login">
+          <button type="submit" class="btn btn-info">Login</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Get Started with B&K Bank</h1>
+          <hr>
+          <form id="create">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <br>
+              <input id="name" type="text" required>
+            </div>
+            <div class="form-group">
+              <label for="initial">Initial Deposit</label>
+              <br>
+              <input id="initial" type="number" placeholder="number" required>
+            </div>
+            <div class="form-group">
+              <label for="user">Username</label>
+              <br>
+              <input id="user" type="text" required>
+            </div>
+            <div class="form-group">
+              <label for="pass">Password</label>
+              <br>
+              <input id="pass" type="text" required>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+
+          </form>
+        </div>
+        <div class="col-md-12 signin">
+          <form id="signin">
+            <h2>Sign In</h2>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <br>
+              <input id="username" type="text" placeholder="bnkUser" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <br>
+              <input id="password" type="text" placeholder="p1a2s3s4" required>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+          <p>
+            (This is just for validating imput. Use this username and password:   username: bnkUser, p1a2s3s4)
+          </p>
+        </div>
+        <div class="col-md-6" class="managed">
+            <!-- Change this id -->
+          <form id="manage">
+            <div class="form-group">
+              <label for="deposit">Deposit</label>
+              <br>
+              <input id="deposit" type="number" required>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+          <form id="withdraw">
+            <div class="form-group">
+              <label for="withdraw">Withdraw</label>
+              <br>
+              <input id="withdraw" type="number" required>
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+        </div>
+        <div class="account col-md-6">
+          <div class="row">
+            <h2>Hello <span class="display"></span></h2>
+            <h3>Your Account Balance is:</h2>
+            <h1 class="balance"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
